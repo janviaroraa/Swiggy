@@ -3,7 +3,6 @@ This project is a clone of the Swiggy app. It focuses on clean architecture, mod
 <br/>
 - This project's minimum deployment version is set to `iOS 14.0`
 <br/>
-<br/>
 
 # Requirements:
 - [x] Sticky Header
