@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Burger",
+        "image_name": "item1",
+        "category": "Burgers",
+        "description": "A timeless favorite, our burgers are crafted with perfectly seasoned patties, fresh lettuce, juicy tomatoes, and creamy sauces, all sandwiched between soft, toasted buns. Whether you love a classic cheeseburger or crave adventurous flavors, each bite is a delightful explosion of taste and texture. Perfect for any occasion, our burgers are a must-try for food lovers of all ages."
+    },
+    {
+        "title": "Domino's Pizza",
+        "image_name": "item2",
+        "category": "Pizzas",
+        "description": "Savor the iconic flavors of Domino's Pizza, where every slice is packed with a generous helping of melted cheese, savory toppings, and a crispy, golden crust. Whether it's a classic Margherita or a loaded Meat Lovers, our pizzas are a treat for your taste buds. Perfect for sharing with friends and family, this is comfort food at its finest."
+    },
+    {
+        "title": "Top Brands",
+        "image_name": "item3",
+        "category": "All Stars",
+        "description": "Explore the best of culinary delights with our selection from top food brands. Each dish is a testament to premium quality and exceptional taste, bringing you flavors that are both familiar and innovative. Ideal for foodies who love to indulge in trusted favorites, this category ensures a top-notch dining experience every time."
+    },
+    {
+        "title": "Sherbets",
+        "image_name": "item4",
+        "category": "Sherbets of Malhar",
+        "description": "Beat the heat with our refreshing sherbets, inspired by the vibrant flavors of Malhar. These chilled beverages are made with natural ingredients and infused with a medley of fruits and spices to create the perfect thirst quencher. Whether you prefer tangy citrus or sweet rose, our sherbets are a celebration of tradition and taste."
+    },
+    {
+        "title": "Food Carnival",
+        "image_name": "item6",
+        "category": "Swiggy Food Carnival",
+        "description": "Dive into a world of flavors at the Swiggy Food Carnival! From savory bites to sweet treats, this collection offers a gastronomic adventure like no other. Celebrate the joy of good food with a variety of dishes crafted to please every palate. Perfect for foodies who love to explore new and exciting tastes."
+    },
+    {
+        "title": "7/11 Salad",
+        "image_name": "item7",
+        "category": "Salads",
+        "description": "Stay healthy and refreshed with our 7/11 Salad, a mix of fresh greens, juicy vegetables, and delightful dressings. Each bite is a perfect balance of crunch and flavor, making it a wholesome choice for those who love nutritious yet delicious meals. Perfect for a light lunch or a side dish to complement your meal."
+    },
+    {
+        "title": "Mutton Biryani",
+        "image_name": "item8",
+        "category": "Biryani",
+        "description": "Relish the rich and aromatic flavors of our Mutton Biryani, where tender pieces of mutton are cooked to perfection with fragrant basmati rice, spices, and herbs. Every spoonful is a celebration of traditional culinary craftsmanship, making it a favorite among biryani lovers. Perfect for a hearty meal or a festive feast."
+    },
+    {
+        "title": "Chicken Biryani",
+        "image_name": "item9",
+        "category": "Biryani",
+        "description": "Experience the irresistible taste of Chicken Biryani, a classic dish that combines succulent chicken with aromatic spices and fluffy rice. Bursting with flavor and perfectly cooked, this biryani is a crowd-pleaser and a comfort food staple for many. Ideal for any occasion, from casual dinners to celebrations."
+    },
+    {
+        "title": "Veg Pulao",
+        "image_name": "item10",
+        "category": "Paradise on your Plate",
+        "description": "Discover the simplicity and elegance of Veg Pulao, a delightful mix of fragrant basmati rice and vibrant vegetables. Infused with subtle spices, this dish is a perfect example of comfort food that nourishes the body and soul. Great as a standalone meal or paired with your favorite curry."
+    },
+    {
+        "title": "Cocktails",
+        "image_name": "item11",
+        "category": "Beer Mug & IMFL",
+        "description": "Raise your spirits with our delightful cocktails, expertly crafted to deliver the perfect balance of flavor and refreshment. Whether you prefer fruity blends or classic mixes, our cocktails are designed to please every palate. Perfect for parties, celebrations, or simply unwinding after a long day."
+    },
+    {
+        "title": "Veg Lollipop",
+        "image_name": "item12",
+        "category": "Puja Special",
+        "description": "Savor the crispy and flavorful Veg Lollipop, a vegetarian twist on a classic favorite. Made with a blend of fresh vegetables and spices, this appetizer is fried to golden perfection and served with tangy dips. A great snack for festive occasions or as a starter for any meal."
+    },
+    {
+        "title": "Paneer Tikka",
+        "image_name": "item13",
+        "category": "Seesma Paneers",
+        "description": "Indulge in the smoky, spicy flavors of Paneer Tikka, where succulent cubes of paneer are marinated in aromatic spices and grilled to perfection. This popular Indian delicacy is a favorite at parties and gatherings, loved for its irresistible taste and vibrant presentation."
+    },
+    {
+        "title": "Burger",
+        "image_name": "item14",
+        "category": "Burgers",
+        "description": "Our signature burgers are a mouthwatering treat, featuring juicy patties, fresh veggies, and zesty sauces, all encased in soft, golden buns. A perfect fusion of flavor and texture, these burgers are ideal for casual meals or when you're craving something satisfying and indulgent."
+    },
+    {
+        "title": "Honey Chilli Cauliflower",
+        "image_name": "item15",
+        "category": "Chaitanya",
+        "description": "Enjoy the sweet and spicy flavors of Honey Chilli Cauliflower, where crispy cauliflower florets are tossed in a tangy glaze with a hint of chilli. This fusion dish is perfect as a starter or a side, loved for its vibrant taste and unique texture."
+    }
+]

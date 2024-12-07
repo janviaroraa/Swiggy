@@ -1,0 +1,12 @@
+func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    let section = allSectionTypes[indexPath.section]
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: section.cellReuseIdentifier, for: indexPath)
+    section.configureCell(cell, item: indexPath.item, at: indexPath)
+    return cell
+}
+func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let section = allSectionTypes[indexPath.section]
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: section.self.cellReuseIdentifier(), for: indexPath)
+        section.configureCell(cell, item: indexPath.item, at: indexPath)
+        return cell
+    }
