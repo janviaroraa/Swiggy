@@ -2,7 +2,7 @@
 //  SGTabItems.swift
 //  Swiggy
 //
-//  Created by Janvi Arora on 06/12/24.
+//  Created by Janvi Arora on 24/12/24.
 //
 
 import Foundation
@@ -15,22 +15,6 @@ enum SGTabItems: String, CaseIterable {
     case eatList
     case bolt
     case reorder
-
-    /// Returns the corresponding view controller for each tab.
-    var viewController: UIViewController {
-        switch self {
-        case .home:
-            return HomeViewController()
-        case .food:
-            return FoodViewController()
-        case .eatList:
-            return EatListViewController()
-        case .bolt:
-            return BoltViewController()
-        case .reorder:
-            return ReorderViewController()
-        }
-    }
 
     /// Returns the corresponding title for each tab.
     var title: String {
@@ -91,12 +75,5 @@ enum SGTabItems: String, CaseIterable {
             selectedImage: selectedImage
         )
         return item
-    }
-
-    /// Wraps each associated view controller in a `UINavigationController` 
-    func navItem() -> UINavigationController {
-        let navController = UINavigationController(rootViewController: viewController)
-        navController.tabBarItem = tabBarItem
-        return navController
     }
 }

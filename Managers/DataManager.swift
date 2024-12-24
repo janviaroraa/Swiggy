@@ -2,7 +2,7 @@
 //  DataManager.swift
 //  Swiggy
 //
-//  Created by Janvi Arora on 07/12/24.
+//  Created by Janvi Arora on 24/12/24.
 //
 
 import Foundation
