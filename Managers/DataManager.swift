@@ -16,13 +16,23 @@ class DataManager {
 
     /// A generic method to load and decode data from a particular file path (json file)
     func fetchData<T: Codable>(from jsonFile: String, resultType: T.Type, completion: @escaping (Result<T, Error>) -> Void) {
-        if let url = Bundle.main.url(forResource: jsonFile, withExtension: "json") {
-            do {
-                let data = try Data(contentsOf: url)
-                let decodedData = try JSONDecoder().decode(T.self, from: data)
-                completion(.success(decodedData))
-            } catch {
-                completion(.failure(error))
+        DispatchQueue.global(qos: .background).async {
+            if let url = Bundle.main.url(forResource: jsonFile, withExtension: "json") {
+                do {
+                    let data = try Data(contentsOf: url)
+                    let decodedData = try JSONDecoder().decode(T.self, from: data)
+                    DispatchQueue.main.async {
+                        completion(.success(decodedData))
+                    }
+                } catch {
+                    DispatchQueue.main.async {
+                        completion(.failure(error))
+                    }
+                }
+            } else {
+                DispatchQueue.main.async {
+                    completion(.failure(NSError(domain: "Invalid File", code: 404, userInfo: nil)))
+                }
             }
         }
     }
